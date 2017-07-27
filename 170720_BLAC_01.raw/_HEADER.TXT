@@ -1,0 +1,49 @@
+$$ Version: 01.00
+$$ Acquired Name: 170720_BLAC_01
+$$ Acquired Date: 20-Jul-2017
+$$ Acquired Time: 12:17:51
+$$ Job Code: 
+$$ Task Code: 
+$$ User Name: 
+$$ Instrument: 
+$$ Conditions: 
+$$ Laboratory Name: 
+$$ Sample Description: 
+$$ Solvent Delay: 0.0000
+$$ Submitter: 
+$$ SampleID: 
+$$ Bottle Number: 
+$$ Plate Desc: 
+$$ Cal MS1 Static: ,T0
+$$ Cal MS2 Static: ,T0
+$$ Associated Datafile: 
+$$ Cal MS1 Static Params: 0,0,0.00,0.00,0.0,0.0,0.0,,
+$$ Cal MS1 Dynamic Params: 1000,7000,0.00,0.00,0.0,0.0,0.0,ESI_CsI_Pos,170720_CSI_09
+$$ Cal MS1 Fast Params: 0,0,0.00,0.00,0.0,0.0,0.0,,
+$$ Cal MS2 Static Params: 0,0,0.00,0.00,0.0,0.0,0.0,,
+$$ Cal MS2 Dynamic Params: 0,0,0.00,0.00,0.0,0.0,0.0,,
+$$ Cal MS2 Fast Params: 0,0,0.00,0.00,0.0,0.0,0.0,,
+$$ Cal Time: 12:08
+$$ Cal Date: 07/20/17
+$$ Analog Channel 1 Offset: 0.000
+$$ Analog Channel 2 Offset: 0.000
+$$ Analog Channel 3 Offset: 0.000
+$$ Analog Channel 4 Offset: 0.000
+$$ Mux Stream: 0
+$$ Cal Temperature: 51.1882820
+$$ Inlet Method: 
+$$ Inlet Prerun Method: 
+$$ Inlet Postrun Method: 
+$$ Inlet Switch Method: 
+$$ HPLC Method: 
+$$ MS Method: C:\MassLynx\Charlie.PRO\ACQUDB\recWT_12_Trap60.EXP
+$$ Tune Method: C:\MassLynx\Charlie.PRO\ACQUDB\Tanya.ipr
+$$ FractionLynx Method: 
+$$ Spare1: 
+$$ Spare2: 
+$$ Spare3: 
+$$ Spare4: 
+$$ Spare5: 
+$$ Cal Function 1: -1.819325006745211e-4,1.000116590095115e0,T1
+$$ Cal StdDev Function 1: 0.000000000000000e0
+$$ Cal CoVar 1: 0.000000000000000e0,0.000000000000000e0,0.000000000000000e0

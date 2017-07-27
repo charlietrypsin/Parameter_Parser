@@ -1,0 +1,14 @@
+Capillary (kV)	1.2
+Sampling Cone	40.0
+Source Temperature (°C)	40
+LM Resolution	5.0
+HM Resolution	14.9
+Trap Collision Energy	10.0
+Trap DC Bias	16.0
+IMS Wave Velocity (m/s)	250
+IMS Wave Height (V)	8.0
+Transfer Wave Velocity (m/s)	250
+Transfer Wave Height (V)	8.0
+Backing	3.31e0
+Start Mass				1000.0
+End Mass				7000.0

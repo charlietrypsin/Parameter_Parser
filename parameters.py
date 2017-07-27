@@ -25,46 +25,49 @@ for dirpath, dirnames, filenames in walk(dataFn):
 		print(foldername)
 		with open(dirpath + "/" + "_extern.inf") as info:
 			for line in info:
-				writing_list = zip(*(line1.strip().split('\t') for line1 in info))
-
+				writing_list = zip(*(line1.strip().split('\t\t\t\t\t') for line1 in info))
 
 for item in writing_list[0]:
 	print(item)
-	
-# print(writing_list[0])
-			# writer_list = []
-			# write = open(experiment_name + '_parameters.txt', 'w+')
-			# writer = csv.writer(write, lineterminator = '\n')
-			# for line in info:
-			# 	if "Capillary (kV)" in line:
-			# 		writer_list.append(line)
-			# 	if "Sampling Cone" in line:
-			# 		writer_list.append(line)
-			# 	if "Source Temperature" in line:
-			# 		writer_list.append(line)
-			# 	if "Trap Collision Energy" in line:
-			# 		writer_list.append(line)
-			# 	if "Start Mass" in line:
-			# 		writer_list.append(line)
-			# 	if "MSMS End Mass" in line:
-			# 		writer_list.append(line)
-			# 	if "Trap DC Bias" in line:
-			# 		writer_list.append(line)
-			# 	if "Backing" in line:
-			# 		writer_list.append(line)
-			# 	if "IMS Wave Height" in line:
-			# 		writer_list.append(line)
-			# 	if "IMS Wave Velocity" in line:
-			# 		writer_list.append(line)
-			# 	if "Transfer Wave Height" in line:
-			# 		writer_list.append(line)
-			# 	if "Transfer Wave Velocity" in line:
-			# 		writer_list.append(line)
-			# 	if "LM Resolution" in line:
-			# 		writer_list.append(line)
-			# 	if "HM Resolution" in line:
-			# 		writer_list.append(line)
 
-			# print(writer_list)
-			# writer.writerow(writer_list)
+writer_list = []
 
+
+for item in writing_list[0]:
+	if "Capillary (kV)" in item:
+		writer_list.append(item + '\n')
+	if "Sampling Cone" in item:
+		writer_list.append(item + '\n')
+	if "Source Temperature" in item:
+		writer_list.append(item + '\n')
+	if "Trap Collision Energy" in item:
+		writer_list.append(item + '\n')
+	if "Start Mass" in item:
+		writer_list.append(item + '\n')
+	if "End Mass" in item:
+		writer_list.append(item + '\n')
+	if "MSMS End Mass" in item:
+		writer_list.append(item + '\n')
+	if "Trap DC Bias" in item:
+		writer_list.append(item + '\n')
+	if "Backing" in item:
+		writer_list.append(item + '\n')
+	if "IMS Wave Height" in item:
+		writer_list.append(item + '\n')
+	if "IMS Wave Velocity" in item:
+		writer_list.append(item + '\n')
+	if "Transfer Wave Height" in item:
+		writer_list.append(item + '\n')
+	if "Transfer Wave Velocity" in item:
+		writer_list.append(item + '\n')
+	if "LM Resolution" in item:
+		writer_list.append(item + '\n')
+	if "HM Resolution" in item:
+		writer_list.append(item + '\n')
+
+# for item in writer_list:
+# 	print(item)
+
+write = open(experiment_name + '_parameters.txt', 'w+')
+for item in writer_list:
+	write.write(item)
