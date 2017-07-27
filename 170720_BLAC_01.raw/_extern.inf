@@ -1,0 +1,182 @@
+Parameters for C:\MassLynx\Aurora\tuneexp.exp
+Created by Masslynx v4.1
+ 
+ 
+Temperature Correction:
+Temperature Correction			Disabled
+ 
+Instrument Configuration:
+Trigger Threshold				800
+Signal Threshold				50
+T0Constant				-50
+Lteff				1400.0
+Veff				5519.50
+Centroid Threshold				1
+Min Points in Peak				2
+Np Multiplier				0.700
+Resolution				9000
+EDC Delay Coefficient			1.5700
+EDC Delay Offset			1.8100
+Maldi Laser Firing Rate			1.0
+Maldi Plate Speed			1.0
+Maldi Laser Energy			250.0
+Maldi Pattern Filename			c:\Masslynx\Spiral_96.ptn
+Maldi Lock Mass Pattern File			c:\Masslynx\Spiral_96.ptn
+Tof Emulation Transfer Pulse Height (V)	0.1
+ 
+Experimental Instrument Parameters
+Instrument Parameter Filename		C:\MassLynx\Charlie.PRO\ACQUDB\Tanya.ipr (MODIFIED)
+Polarity				ES+
+Analyser				V Mode
+Capillary (kV)	1.2
+Sampling Cone	40.0
+Extraction Cone	1.0
+Source Temperature (°C)	40
+Desolvation Temperature (°C)	150
+Cone Gas Flow (L/Hr)	0.0
+Nanoflow Gas Pressure (Bar)	0.0
+Desolvation Gas Flow (L/Hr)	400.0
+LM Resolution	5.0
+HM Resolution	14.9
+Aperture 1	1.0
+Pre-filter	2.0
+Ion Energy	-0.2
+Trap Collision Energy	10.0
+Transfer Collision Energy	8.0
+Trap Gas Flow (mL/min)	5.00
+Source Gas Flow (mL/min)	0.00
+IMS Gas Flow (mL/min)	21.00
+Detector	1950
+Pusher Interval (µS)	180
+Pusher Width	7
+Acceleration1	70.0
+Acceleration2	200.0
+Aperture2	70.0
+Transport1	70.0
+Transport2	70.0
+Steering	0.0
+Tube Lens	75
+Pusher	923.0
+Pusher Offset	-2.25
+Puller	646.0
+Photo Multiplier	650
+Collector	60
+Collector Pulse	10.0
+Stopper	10
+Stopper Pulse	20.0
+Entrance	75
+Static Offset	120
+Puller Offset	0.00
+TOF (kV)	9.10
+Reflectron (kV)	2.16
+Pusher Interval (µS)	180
+Pusher Width	7
+Trap DC Entrance	5.0
+Trap DC Bias	16.0
+Trap DC Exit	5.0
+IMS DC Entrance	5.0
+IMS DC Exit	2.0
+Transfer DC Entrance	2.0
+Transfer DC Exit	2.0
+Source Manual Control	OFF
+Source Wave Velocity (m/s)	300
+Source Wave Height (V)	0.2
+Trap Manual Control	OFF
+Trap Wave Velocity (m/s)	300
+Trap Wave Height (V)	0.2
+IMS Manual Control	ON
+IMS Wave Velocity (m/s)	250
+IMS Wave Height (V)	8.0
+Transfer Manual Control	ON
+Transfer Wave Velocity (m/s)	250
+Transfer Wave Height (V)	8.0
+Trapping Mode/Location	Trap
+Trap Manual Release Enabled	FALSE
+Trap Release Time (µs)	400
+Trap Trap Height (V)	10.0
+Trap Extract Height (V)	5.0
+IMS Manual Release Enabled	FALSE
+IMS Release Time (µs)	100
+IMS Trap Height (V)	10.0
+IMS Extract Height (V)	5.0
+EDC Enabled	FALSE
+EDC Mode	EDC
+EDC Mass	556.0
+HDC Table	
+Transfer Trap Height (V)	12.0
+Transfer Extract Height (V)	8.0
+Variable Wave Height Enabled	FALSE
+Wave Height Ramp Type	Linear
+Wave Height Start (V)	0.0
+Wave Height End (V)	30.0
+Wave Height Using Full IMS	TRUE
+Wave Height Ramp (%)	10.0
+Wave Height Look Up Table	
+Variable Wave Velocity Enabled	FALSE
+Wave Velocity Ramp Type	Linear
+Wave Velocity Start (m/s)	300.0
+Wave Velocity End (m/s)	600.0
+Wave Velocity Using Full IMS	TRUE
+Wave Velocity Ramp (%)	10.0
+Wave Velocity Look Up Table	
+IMS Bias Look Up Table Enabled	FALSE
+IMS Bias Look Up Table	
+Multiplier	650
+Collector	60
+CollectorPulse	10.0
+StopperBias	10
+StopperPulse	20.0
+Entrance	75
+CollisionCellStaticOffset	120
+Offset2	0.00
+TOF	9.10
+Reflectron	2.16
+Vacuum Lock	1.47e-3
+Backing	3.31e0
+Source	OFF
+Quadrupole	OFF
+Trap	4.15e-2
+IMS	5.39e-1
+TOF	1.78e-6
+SourceRFOffset	450
+SourceRFGain	0
+SourceRFLimit	450
+IMSRFOffset	380
+IMSRFGain	0
+IMSRFLimit	380
+TrapRFOffset	380
+TrapRFGain	0
+TrapRFLimit	380
+TransferRFOffset	380
+TransferRFGain	0
+TransferRFLimit	380
+MS Profile Type	Auto P
+MSProfileMass1	10000
+MSProfileDwellTime1	25
+MSProfileRampTime1	25
+MSProfileMass2	15000
+MSProfileDwellTime2	25
+MSProfileRampTime2	25
+MSProfileMass3	20000
+ 
+ 
+Function Parameters - Function 1 - TOF MS FUNCTION
+Scan Time (sec)				2.000
+Interscan Time (sec)			0.020
+Start Mass				1000.0
+End Mass				7000.0
+Start Time (mins)			0.00
+End Time (mins)				5.00
+Data Format				Continuum
+Use Tune Page Cone Voltage		YES
+Use Tune Page Collision Energy		YES
+Use Tune Page Collision Energy2		NO
+Collision Energy2 1 (eV)			30.0
+Collision Energy2 2 (eV)			30.0
+Collision Energy2 3 (eV)			0.0
+Collision Energy2 5 (eV)			0.0
+Sensitivity				Normal
+Dynamic Range				Normal
+Save Collapsed Retention Time Data	No
+Use Rule File Filtering			No
+Calibration				Dynamic 2
