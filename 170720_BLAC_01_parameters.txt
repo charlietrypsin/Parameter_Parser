@@ -1,14 +1,59 @@
+Nanoflow 
+ 
 Capillary (kV)	1.2
 Sampling Cone	40.0
+Extraction Cone	1.0
 Source Temperature (°C)	40
-LM Resolution	5.0
-HM Resolution	14.9
+Cone Gas Flow (L/Hr)	0.0
+
+Instrument 
+ 
 Trap Collision Energy	10.0
+Transfer Collision Energy	8.0
+Trap Gas Flow (mL/min)	5.00
+Source Gas Flow (mL/min)	0.00
+IMS Gas Flow (mL/min)	21.00
+
+Triwave DC 
+ 
+Trap DC Entrance	5.0
 Trap DC Bias	16.0
+Trap DC Exit	5.0
+IMS DC Entrance	5.0
+IMS DC Exit	2.0
+Transfer DC Exit	2.0
+
+Triwave 
+ 
 IMS Wave Velocity (m/s)	250
 IMS Wave Height (V)	8.0
 Transfer Wave Velocity (m/s)	250
 Transfer Wave Height (V)	8.0
+
+Trapping 
+ 
+Trap Manual Control	OFF
+Trap Manual Release Enabled	FALSE
+
+IMS Config 
+ 
+Wave Height Ramp Type	Linear
+Wave Height Ramp Type	Linear
+Wave Height Start (V)	0.0
+Wave Height End (V)	30.0
+Wave Height Using Full IMS	TRUE
+Wave Height Ramp (%)	10.0
+Wave Height Ramp (%)	10.0
+Wave Velocity Ramp Type	Linear
+Wave Velocity Start (m/s)	300.0
+Wave Velocity End (m/s)	600.0
+Wave Velocity Using Full IMS	TRUE
+Wave Velocity Ramp (%)	10.0
+
+Extra bits 
+
+LM Resolution	5.0
+HM Resolution	14.9
 Backing	3.31e0
 Start Mass				1000.0
 End Mass				7000.0
